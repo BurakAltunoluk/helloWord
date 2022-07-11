@@ -11,7 +11,7 @@ import AVFoundation
 final class MainVC: UIViewController {
  
     // MARK: Properties
-    var DataModel = MainModel()
+    var dataModel = MainModel()
     var wordsArray = [String]()
     var meaningArray = [String]()
     
@@ -23,8 +23,8 @@ final class MainVC: UIViewController {
     // MARK: Life Cycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
-        wordsArray = DataModel.wordsArray
-        meaningArray = DataModel.meaningArray
+        wordsArray = dataModel.wordsArray
+        meaningArray = dataModel.meaningArray
       
     }
     
